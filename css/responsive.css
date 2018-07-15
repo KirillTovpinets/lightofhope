@@ -1,0 +1,299 @@
+/*------------ ( Responsive ) ------------*/
+@media only screen and (min-width:1601px) and (max-width:1920px){
+    
+}
+
+
+@media only screen and (min-width:2560px) and (max-width:5120px){
+    
+}
+
+
+@media only screen and (min-width:1601px) and (max-width:5120px){
+    .moto-item p, a.btn{
+        letter-spacing:initial;
+    }
+    .moto#values .moto-item{
+        min-height: 270px;
+    }
+    #services>div{
+        min-height:770px;
+    }
+}
+
+
+/*------------ ( MAX 1600 PX SCREEN START ) ------------*/
+@media only screen and (min-width:1441px) and (max-width:1600px){
+    .moto-container #services .moto-item-text p{
+        min-height:160px;
+    }
+    #services>div{
+        min-height:840px;
+    }
+}
+
+/*------------ ( MAX 1600 PX SCREEN END ) ------------*/
+/*------------ ( MAX 1440 PX SCREEN START ) ------------*/
+@media only screen and (min-width:1200px) and (max-width:1440px){
+    .moto-container #services .moto-item-text:first-child p{
+        min-height:160px;
+    }
+    h3{
+        font-size:20px;
+    }
+    #services>div{
+        min-height:720px;
+    }
+}
+
+
+/* Portrait tablets and medium desktops */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    header .phrase{
+    }
+    
+    .moto#values .moto-item{
+        min-height: 490px;
+    }
+    #services>.moto-item{
+        min-height:830px;
+    }
+    section > .col-lg-12 h2{
+        font-size:2.8em;
+    }
+    section > .col-lg-12 small{
+        font-size:14px;
+    }
+    .moto .moto-item.no-padding{
+        min-height:720px;
+    }
+    .full-width-title .btn{
+        font-size:10px;
+        width:100%;
+    }
+    .full-width-title .btn .fa-angle-right{
+        top:11px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .footer{
+        display: none;
+    }
+    .moto#values .moto-item .box-title .hidden-sm-down,
+    .moto#values .moto-item p,
+    .moto#values .moto-item hr{
+        display:none;
+    }
+    .moto#values .moto-item{
+        min-height: 60px;
+    }
+}
+/* Portrait tablets and small desktops */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    header .phrase{
+        top:15px;
+        right:120px;
+        margin-left:0px;
+    }
+    .moto#values .moto-item .box-title .hidden-sm-down,
+    .moto#values .moto-item p,
+    .moto#values .moto-item hr{
+        display:none;
+    }
+    .moto#values .moto-item{
+        min-height: 60px;
+    }
+    .social-icons{
+        display:none;
+    }
+    
+    .full-width-title .col-lg-12:not(#calendar) a.btn{
+        display:none;
+    }
+    .navbar-default .navbar-nav>li>a{
+        padding:20px 10px;
+    }
+    .moto-item .box-title h3{
+        font-size:20px;
+    }
+    .moto-item > .col-lg-12{
+        padding:0px;
+    }
+    #services>.moto-item{
+        min-height:1060px;
+    }
+}
+
+
+/* Landscape phones and portrait tablets */
+@media only screen and (max-width: 768px){
+    header .phrase .btn-group a.btn-lg,
+    .slide-slick a.btn{
+        font-size:7px;
+    }
+    .moto#values .moto-item .box-title .hidden-sm-down,
+    .moto#values .moto-item p,
+    .moto#values .moto-item hr{
+        display:none;
+    }
+    .moto#values .moto-item{
+        min-height: 60px;
+    }
+    .social-icons{
+        display:none;
+    }
+    header .phrase .btn-group a.btn-lg{
+        font-size:10px;
+        padding:5px 11px;
+    }
+    header .phrase .btn-group{
+        top:10px;
+        right:0px;
+    }
+    .preloader{
+        left:25%;
+    }
+    .social-icons{
+        display:none;
+    }
+    .full-width-title .col-lg-12:not(#calendar) a.btn{
+        display:none;
+    }
+    #Sort{
+        display:none;
+    }
+    .title h1{
+        font-size:35px;
+        letter-spacing:0em;
+    }
+    .title .top{
+        margin-left:28px;
+    }
+    #services>.moto-item{
+        min-height:730px;
+    }
+}
+
+
+/* Landscape phones and smaller */
+@media only screen and (max-width: 480px){
+    .moto#values .moto-item .box-title .hidden-sm-down,
+    .moto#values .moto-item p,
+    .moto#values .moto-item hr{
+        display:none;
+    }
+    .moto#values .moto-item{
+        min-height: 60px;
+    }
+    .social-icons{
+        display:none;
+    }
+    .logo{
+        display:none;
+    }
+    .full-width-title .col-lg-12:not(#calendar) a.btn{
+        display:none;
+    }
+    .title h1{
+        font-size:32px;
+        letter-spacing:0em;
+    }
+    .title .top{
+        margin-left:22px;
+        width:85px;
+    }
+    .title .top span{
+        font-size:15px;
+    }
+    .control{
+        display:none !important;
+    }
+    
+    section > .col-lg-12 h2{
+        font-size:2em;
+        text-align:center;
+    }
+    section > .col-lg-12 small{
+        font-size:14px;
+    }
+    .moto .moto-item.no-padding{
+        min-height:720px;
+    }
+    .full-width-title .btn{
+        font-size:10px;
+        width:100%;
+    }
+    .btn .fa-angle-right{
+        display:none;
+    }
+    
+    .slide-slick a.btn,
+    #contactForm a.btn{
+        font-size:10px;
+        padding-right:15px;
+    }
+    header .phrase .btn-group a.btn-lg,
+    .slide-slick a.btn{
+        font-size:7px;
+    }
+    .slide-slick .buttons{
+        bottom:10px;
+    }
+    .slide-slick .buttons.left-position{
+        left:10px;
+    }
+    .slide-slick .buttons.right-position{
+        right:10px;
+    }
+    .footer:not(footer){
+        display:none;
+    }
+}
+@media only screen and (max-width: 375px){
+    .moto#values .moto-item .box-title .col-lg-2{
+        padding-left:10px;
+    }
+    section > .col-lg-12 h2{
+        font-size:2em;
+        text-align:center;
+    }
+    section > .col-lg-12 small{
+        font-size:14px;
+    }
+    .moto .moto-item.no-padding{
+        min-height:720px;
+    }
+    .full-width-title .btn{
+        font-size:10px;
+        width:100%;
+    }
+    .full-width-title .btn .fa-angle-right{
+        display:none;
+    }
+}
+@media only screen and (max-width: 320px){
+    .moto#values .moto-item .box-title .col-lg-2{
+        padding-left:5px;
+    }
+    .moto#values .moto-item{
+        min-height:72px;
+    }
+    section > .col-lg-12 h2{
+        font-size:1.4em;
+        text-align:center;
+    }
+    section > .col-lg-12 small{
+        font-size:12px;
+    }
+    .moto .moto-item.no-padding{
+        min-height:720px;
+    }
+    .full-width-title .btn{
+        font-size:10px;
+        width:100%;
+        text-align:center;
+    }
+    .full-width-title .btn .fa-angle-right{
+        display:none;
+    }
+}
